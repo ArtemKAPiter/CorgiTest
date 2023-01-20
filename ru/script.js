@@ -208,7 +208,7 @@ function showNotification2(){
 */
 function showPayment(){
     var options = "[\"type\":1]";
-    FAPI.UI.showPayment("Яблоко", "Это очень вкусно!", 777, 1, null, null, "ok", "true");
+    FAPI.UI.showPayment("Яблоко", "Это очень вкусно!", 777, 1);
 }
 
 /*
